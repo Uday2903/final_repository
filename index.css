@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#logo{
+    display: flex;
+}
+#logo img{
+height: 60px;
+margin: 3px 6px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.4;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    color: white;
+display: block;
+padding: 3px 22px;
+border-radius: 20px;
+text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    height:302px;
+    padding: 7px 200px;
+    justify-content: center;
+    align-items: center;
+    background: url(uuuuuuu.jpg);
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#form{
+    content: "";
+    justify-content:end;
+    display: flex;
+    right: 0px;
+    flex-direction: column;
+    text-align: right;
+    margin: 16px 44px;
+    padding: 2px 20px;
+}
+#community h1{
+    text-align: center;
+    font-size: 2.3rem;
+    color: rgb(0, 47, 255);
+}
+
+.btn{
+    margin: 51px 138px -122px 132px;
+    padding: 8px 8px;
+    background-color: red;
+    font-size: 1.0rem;
+    border-radius: 22px;
+    cursor: pointer;
+}
+.btn1{
+    margin: 7px 82px -122px 132px;
+    padding: 8px 8px;
+    background-color: red;
+    font-size: 1.0rem;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.btn1:hover{
+background-color: white;
+color: black;
+}
+
+.btn:hover{
+background-color: white;
+color: black;
+}
+
+#community{
+    background: url(welcome\ image.jpg);
+    height: 90%;
+}
+
+#adoption h1{
+    text-align: center;
+    font-size: 2.3rem;
+    color: rgb(255, 0, 0);
+}
+#adoption{
+border: 2px solid yellow;
+border-radius: 12px;
+background-color: rgb(167, 167, 167);
+height: 150%;
+}
+
+#adoption img{
+    margin: 43px 38px;
+    padding: 39px 28px;
+    height: 37%;
+    width: 31%;
+}
+
+#adoption p {
+    color: rgb(28, 53, 165);
+    font-size: 1.2rem;
+    width: 35%;
+    text-align: center;
+    margin: -410px 634px;
+    padding: 2px 2px;
+}
+
+#adoption iframe{
+    margin: 450px 296px;
+    padding: 16px 19px;
+    border: 2px solid #0c0c0c;
+    border-radius: 29px;
+}
+
+#members{
+    background-color: violet;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    height: 100%;
+}
+#members h1{
+    color: red;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 12px 12px;
+}
+
+#members img{
+    height: 40%;
+    width: 30%;
+    margin: 11px 11px;
+}
+
+#contact h1{
+    text-align: center;
+    color: rgb(1, 238, 255);
+    margin: 2px 2px;
+    font-size: 2.2rem;
+}
+
+#contact{
+    background: url(contact.jpeg);
+    height: 105%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 10px 2px;
+}
+
+#fff{
+    content: "";
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin: 28px 189px;
+    padding: 44px 20px;
+}
+
+
+
+#fff label{
+    font-size: 1.3rem;
+    color: purple;
+}
+
+#fff input{
+    padding: 12px 12px;
+    margin: 12px 12px;
+
+}
+
+#contact a{
+    text-align: center;
+    display: block;
+color: tomato;
+font-size: 1.rem;
+margin: 2px 564px;
+border: 2px solid red;
+border-radius: 22px;
+}
+
+#contact a:hover{
+    background-color: white;
+    color: black;
+}
